@@ -7,6 +7,7 @@ cp /mkinitcpio/mkinitcpio.conf /etc/mkinitcpio.conf
 
 pacman -Sy 
 
+sudo pacman -S pacman --noconfirm --overwrite '*'
 sudo pacman -S calamares-config --noconfirm --overwrite '*'
 
 calamares -d 8 > /root/calamares.log
