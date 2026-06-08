@@ -370,3 +370,5 @@ autologger
 pacman
 dmraid
 bootfix
+gcc
+inetutils
