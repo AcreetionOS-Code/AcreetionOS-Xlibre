@@ -113,8 +113,15 @@ chmod 755 /usr/share/backgrounds
 find /usr/share/backgrounds -type d -exec chmod 755 {} \;
 find /usr/share/backgrounds -type f -exec chmod 644 {} \;
 
-# install and check if network for amd needs to be installed.  
+# rm /etc/xdg/autostart/calamares.desktop
+
+# install check for amd network fix.
 
 pacman -S amdnetworkfix --noconfirm
 
+# nredo the mkinitcpio stuff now!
+
+mkinitcpio -P
+
 exit 0
+
