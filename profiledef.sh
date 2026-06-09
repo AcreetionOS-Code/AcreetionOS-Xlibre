@@ -38,4 +38,6 @@ file_permissions=(
   ["/usr/bin/wifi-connection"]="0:0:755"
   ["/usr/local/bin/setup-displays.sh"]="0:0:755"
   ["/etc/NetworkManager/dispatcher.d/10-fix-static-method"]="0:0:755"
+  ["/usr/local/bin/firstboot-initramfs.sh"]="0:0:755"
+  ["/usr/local/bin/firstboot-initramfs-root.sh"]="0:0:755"
 )
