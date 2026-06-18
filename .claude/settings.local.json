@@ -2,7 +2,8 @@
   "permissions": {
     "allow": [
       "Bash(xargs ls *)",
-      "Bash(kill *)"
+      "Bash(kill *)",
+      "Bash(ssh-keygen *)"
     ]
   }
 }
