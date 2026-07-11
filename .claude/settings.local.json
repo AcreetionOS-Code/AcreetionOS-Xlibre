@@ -3,7 +3,20 @@
     "allow": [
       "Bash(xargs ls *)",
       "Bash(kill *)",
-      "Bash(ssh-keygen *)"
+      "Bash(ssh-keygen *)",
+      "Bash(find / -maxdepth 4 -iname \"*acreetionos*repo*\")",
+      "Bash(pacman -Si linux)",
+      "Bash(pacman -Q linux linux-zen)",
+      "Read(//etc/**)",
+      "Read(//etc/pacman.d/**)",
+      "Read(//var/lib/pacman/sync/**)",
+      "Bash(curl -s \"https://iso.acreetionos.org/repo-main/x86_64/acreetionOSREPO-main.db\" -o /tmp_check.db)",
+      "Bash(echo \"curl exit: $?\")",
+      "Bash(curl -sI \"https://iso.acreetionos.org/repo-main/x86_64/\")",
+      "Read(//home/darren/packages/ISO/**)",
+      "Bash(curl -sI \"https://iso.acreetionos.org/repo-main/x86_64/acreetionOSREPO-main.db\")",
+      "Bash(curl -sI \"https://iso.acreetionos.org/repo/x86_64/acreetionOSREPO.db\")",
+      "Bash(curl -v -m 8 \"https://iso.acreetionos.org/repo-main/x86_64/acreetionOSREPO-main.db\" -o /dev/null)"
     ]
   }
 }
