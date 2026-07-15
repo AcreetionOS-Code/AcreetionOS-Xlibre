@@ -159,7 +159,7 @@ kcrash
 # CALAMARES INSTALLER - System installer and dependencies
 ################################################################################
 calamares
-# calamares-config
+calamares-config
 kpmcore
 yaml-cpp
 libpwquality
