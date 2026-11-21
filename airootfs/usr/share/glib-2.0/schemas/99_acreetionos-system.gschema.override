@@ -1,2 +1,3 @@
 [org.cinnamon]
 system-icon='/usr/share/pixmaps/acreetionos-logo.png'
+desktop-effects=false
