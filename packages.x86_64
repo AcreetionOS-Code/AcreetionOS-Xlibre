@@ -375,3 +375,8 @@ gcc
 inetutils
 firefox-ublock-origin
 # testing shit
+
+# NVIDIA (same as Wayland ISO) - nouveau blanks all outputs on Turing+ under xlibre
+#nvidia-open-dkms
+#nvidia-utils
+#nvidia-settings
